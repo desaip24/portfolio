@@ -12,7 +12,6 @@
     $(".navbar").headroom();
 
     // PROJECT CAROUSEL
-
     $('#testimonials-list').owlCarousel({
         loop: true,
         center: true,
@@ -23,15 +22,15 @@
         autoplayTimeout: 8500,
         smartSpeed: 450,
         responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            1170: {
-                items: 3
-            }
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2
+          },
+          1170: {
+            items: 3
+          }
         }
     });
     // SMOOTHSCROLL
