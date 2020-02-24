@@ -27,294 +27,301 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/testimonial-carousal.css">
+    <link rel="stylesheet" href="css/fullpage.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!-- NAV BAR -->
-    <nav class="navbar fixed-top navbar-expand-sm navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Parth</a>
+<div id="fullpage">
+    
+        <!-- NAV BAR -->
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light" id="menu">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Parth Desai</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a href="#about-me" class="nav-link"><span data-hover="About">About</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
-                </li>
-            </ul>
-
-            <!-- color mode -->
-               <!--  <ul class="navbar-nav ml-lg-auto">
-                    <div class="ml-lg-4">
-                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                        <i class="color-mode-icon"></i>
-                        Color mode
-                      </div>
-                    </div>
-                </ul> -->
-            </div>
-        </div>
-    </nav>
-    <!-- END OF NAV BAR -->
-
-    <!-- INTRO -->
-    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-                    <div class="about-text">
-                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
-                        <h1 class="animated animated-text">
-                            <span class="mr-2">Hey folks, I'm</span>
-                            <div class="animated-info">
-                                <span class="animated-item"> Parth Desai</span>
-                                <span class="animated-item"> Developer</span>
-                                <span class="animated-item"> Freelancer</span>
-                            </div>
-                        </h1>
-
-                        <p>To work with maximum potential in a progressive Organization, with an opportunity of working with diverse group of people and enhancing my professional skills with learning and experience for career growth.</p>
-
-                        <div class="custom-btn-group mt-4">
-                          <a href="documents/Parth-Desai_cv.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
-                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact</a>
-                      </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg">
-                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a data-menuanchor="home" href="#home" class="nav-link"><span data-hover="Home">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-menuanchor="about" href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-menuanchor="projects" href="#projects" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-menuanchor="experiences" href="#experiences" class="nav-link"><span data-hover="Experiences">Experiences</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-menuanchor="testimonials" href="#testimonials" class="nav-link"><span data-hover="Testimonials">Testimonials</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-menuanchor="contact" href="#contact" class="nav-link"><span data-hover="contact">Contact</span></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- END OF INTRO -->
+        </nav>
+        <!-- END OF NAV BAR -->
+        <div class="section active" id="home">
+        <!-- INTRO -->
+        <section class="about full-screen d-lg-flex justify-content-center align-items-center" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                        <div class="about-text">
+                            <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                            <h1 class="animated animated-text">
+                                <span class="mr-2">Hey folks, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item"> Parth Desai</span>
+                                    <span class="animated-item"> Developer</span>
+                                    <span class="animated-item"> Freelancer</span>
+                                </div>
+                            </h1>
 
-    <!-- ABOUT ME -->
-    <section class="about-me py-5" id="about-me">
-        <div class="container">
-            <div class="row">
+                            <p>To work with maximum potential in a progressive Organization, with an opportunity of working with diverse group of people and enhancing my professional skills with learning and experience for career growth.</p>
 
-                <div class="col-lg-6 mr-lg-6 col-12">
-                    <div class="about-image svg">
-                        <img src="images/undraw/ab-img.png" class="img-fluid" alt="svg image">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12">
-                    <div class="about-me-inner">
-                        <h2 class="wow fadeInUp" style="cursor: default;" data-wow-duration="0.8s"
-                            data-wow-delay="0.1s">About Me</h2>
-                        <p class="wow fadeInUp" style="cursor: default;" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                            Hello, I’m Jay, Google Cloud Certified Associate Cloud Engineer based in Pune. I have rich
-                            experience in application development, design, and customization. I'm currently working in a
-                            financial module of happierWork - an HRMS product of Searce Inc. I have 1.5+ years of
-                            experience and have developed 2-3 end to end products. All the products have been in
-                            different domains, technologies, and verticals. I like trying out new technologies to see
-                            how they can be used in product development. Also I am good at</p>
-                        <div class="about-me-tag wow fadeInUp" style="cursor: default;" data-wow-duration="0.8s"
-                            data-wow-delay="0.3s">
-                            <ul>
-                                <li><span>Java</span></li>
-                                <li><span>Python</span></li>
-                                <li><span>Android</span></li>
-                                <li><span>Web development</span></li>
-                                <li><span>Drupal 7</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END OF ABOUT ME -->
-
-    <!-- EDUCATION AND EXPERIENCE -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-12">
-                    <h2 class="mb-4">Experiences</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2019</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Assistant System Engineer<br></span><small>Tata Consultancy Services</small></h3>
-                                <p>Drupal 7 developer</p><br>
-                                <p>Programming with PHP, HTML, CSS, JS, JQuery, Bootstrap, SQL, JSON.</p><br>
-                                <p>Worked on tools like JIRA, Github, Advil, Edison, Apache Tomcat, and Xampp.</p>
+                            <div class="custom-btn-group mt-4">
+                              <a href="documents/Parth-Desai_cv.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                              <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact</a>
                           </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2017</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Internship<br></span><small>Dynamic Web Soft</small></h3>
-                                <p>Developed Management Systems & Websites with technologies like HTML, Bootstrap, CSS, PHP, JavaScript, JQuery, and SQL.</p>
-                            </div>
-                        </div>
+                      </div>
                     </div>
-                </div>
 
-                <div class="col-lg-6 col-12">
-                    <h2 class="mb-4 mobile-mt-2">Educations</h2>
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2019</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>B.Tech(Inforamtion Technology)</span><small>Birla Vishvakarma Mahavidyalaya</small></h3>
-                                <p>CGPA : 7.97</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2015</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Higher Secondary Education</span><small>Gajera International School</small></h3>
-                                <p>Percentile : 94.70</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2013</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Secondary Education</span><small>Gajera International School</small></h3>
-                                <p>Percentile : 99.53</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- END OF EDUCATION AND EXPERIENCE -->
-
-    <!-- TESTIMONY CAROUSEL -->
-    <section class="testimonials">
-        <div class="wrapper">
-            <div class="row" style="margin-left: 0px; margin-right: 0px;">
-                <div class="col-sm-12">
-                    <h2 class="mb-4" style="text-align: center;">Testimonials</h2>
-                    <div id="testimonials-list" class="owl-carousel">
-                        <div class="item">
-                            <div class="shadow-effect">
-                                <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor  convallis vulputate leo non ultricies.Lorem ipsum dolor sit amet, consectetur </p>
-                            </div>
-                            <div class="testimonial-name">First Person</div>
-                            <div class="testimonial-name">Designation</div>
-                        </div>
-                        <div class="item">
-                            <div class="shadow-effect">
-                                <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus </p>
-                            </div>
-                            <div class="testimonial-name">Second Person</div>
-                            <div class="testimonial-name">Designation</div>
-                        </div>
-                        <div class="item">
-                            <div class="shadow-effect">
-                                <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor  Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non </p>
-                            </div>
-                            <div class="testimonial-name">Third Person</div>
-                            <div class="testimonial-name">Designation</div>
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <div class="about-image svg">
+                            <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- END OF TESTIMONY CAROUSEL -->
+        </section>
+        <!-- END OF INTRO -->
+    </div>
 
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
-        <div class="container">
-            <div class="row">
+    <div class="section" id="about">
+        <!-- ABOUT ME -->
+        <section class="about-me py-5" >
+            <div class="container">
+                <div class="row">
 
-                <div class="col-lg-5 mr-lg-5 col-12">
-                    <div class="google-map w-100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.114838677846!2d72.81214311488674!3d21.22729428589123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04ea49eb92a05%3A0xa43f839409bbaf41!2sArchana%20Society!5e0!3m2!1sen!2sin!4v1582397743107!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                    <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                        <div class="contact-info-item">
-                            <h3 class="mb-3" style="color: #ffc200">Parth H Desai</h3>
-                            <p class="footer-text mb-0">+91 815 488 1760</p>
-                            <p><a href="mailto:P142desai@gmail.com">P142desai@gmail.com</a></p>
+                    <div class="col-lg-6 mr-lg-6 col-12">
+                        <div class="about-image svg">
+                            <img src="images/undraw/ab-img.png" class="img-fluid" alt="svg image">
                         </div>
-                        <ul class="social-links">
-                           <li><a href="https://www.linkedin.com/in/parth-desai-b692ba1a3/" class="uil fa fa-linkedin" data-toggle="tooltip" data-placement="left" title="Linkedin"></a></li>
-                           <li><a href="https://www.facebook.com/profile.php?id=100008360353155" class="uil fa fa-facebook-square" data-toggle="tooltip" data-placement="left" title="Facebook"></a></li>
-                           <li><a href="https://github.com/desaip24" class="uil fa fa-github" data-toggle="tooltip" data-placement="left" title="Github"></a></li>
-                       </ul>
                     </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="contact-form">
-                        <h2 class="mb-4">Interested to work together? Let's talk</h2>
 
-                        <form action="" method="get">
-                            <div class="row">
-                                <div class="col-lg-6 col-12">
-                                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                                </div>
-
-                                <div class="col-12">
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                                </div>
-
-                                <div class="ml-lg-auto col-lg-5 col-12">
-                                    <input type="submit" class="form-control submit-btn" value="Send Button">
-                                </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="about-me-inner">
+                            <h2>About Me</h2>
+                            <p style="text-align: justify;">
+                                Hello, I’m Jay, Google Cloud Certified Associate Cloud Engineer based in Pune. I have rich
+                                experience in application development, design, and customization. I'm currently working in a
+                                financial module of happierWork - an HRMS product of Searce Inc. I have 1.5+ years of
+                                experience and have developed 2-3 end to end products. All the products have been in
+                                different domains, technologies, and verticals. I like trying out new technologies to see
+                                how they can be used in product development. Also I am good at</p>
+                            <div class="about-me-tag">
+                                <ul>
+                                    <li><span>Java</span></li>
+                                    <li><span>Python</span></li>
+                                    <li><span>Android</span></li>
+                                    <li><span>Web development</span></li>
+                                    <li><span>Drupal 7</span></li>
+                                </ul>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- END OF CONTACT -->
+        </section>
+        <!-- END OF ABOUT ME -->
+    </div>
 
+    <div class="section" id="projects">Projects
+    </div>
+
+    <div class="section" id="experiences">
+        <!-- EDUCATION AND EXPERIENCE -->
+        <section class="Experiences py-5 d-lg-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <h2 class="mb-4">Experiences</h2>
+
+                        <div class="timeline">
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2019</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>Assistant System Engineer<br></span><small>Tata Consultancy Services</small></h3>
+                                    <p>Drupal 7 developer</p><br>
+                                    <p>Programming with PHP, HTML, CSS, JS, JQuery, Bootstrap, SQL, JSON.</p><br>
+                                    <p>Worked on tools like JIRA, Github, Advil, Edison, Apache Tomcat, and Xampp.</p>
+                              </div>
+                            </div>
+
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2017</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>Internship<br></span><small>Dynamic Web Soft</small></h3>
+                                    <p>Developed Management Systems & Websites with technologies like HTML, Bootstrap, CSS, PHP, JavaScript, JQuery, and SQL.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="mb-4 mobile-mt-2">Educations</h2>
+                        <div class="timeline">
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2019</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>B.Tech(Inforamtion Technology)</span><small>Birla Vishvakarma Mahavidyalaya</small></h3>
+                                    <p>CGPA : 7.97 (Equivalent to 1.61 GPA)</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2015</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>Higher Secondary Education</span><small>Gajera International School</small></h3>
+                                    <p>Percentile : 94.70</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2013</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>Secondary Education</span><small>Gajera International School</small></h3>
+                                    <p>Percentile : 99.53</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- END OF EDUCATION AND EXPERIENCE -->
+    </div>
+
+    <div class="section" id="testimonials">
+        <!-- TESTIMONY CAROUSEL -->
+        <section class="testimonials">
+            <div class="wrapper">
+                <div class="row" style="margin-left: 0px; margin-right: 0px;">
+                    <div class="col-sm-12">
+                        <h2 class="mb-4" style="text-align: center;">Testimonials</h2>
+                        <div id="testimonials-list" class="owl-carousel">
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor  convallis vulputate leo non ultricies.Lorem ipsum dolor sit amet, consectetur </p>
+                                </div>
+                                <div class="testimonial-name">First Person</div>
+                                <div class="testimonial-name">Designation</div>
+                            </div>
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus </p>
+                                </div>
+                                <div class="testimonial-name">Second Person</div>
+                                <div class="testimonial-name">Designation</div>
+                            </div>
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor  Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non </p>
+                                </div>
+                                <div class="testimonial-name">Third Person</div>
+                                <div class="testimonial-name">Designation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END OF TESTIMONY CAROUSEL -->
+    </div>
+
+    <div class="section" id="contact">
+        <!-- CONTACT -->
+        <section class="contact py-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5 mr-lg-5 col-12">
+                        <div class="google-map w-100">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.114838677846!2d72.81214311488674!3d21.22729428589123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04ea49eb92a05%3A0xa43f839409bbaf41!2sArchana%20Society!5e0!3m2!1sen!2sin!4v1582397743107!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                            <div class="contact-info-item">
+                                <h3 class="mb-3" style="color: #ffc200">Parth H Desai</h3>
+                                <p class="footer-text mb-0">+91 815 488 1760</p>
+                                <p><a href="mailto:P142desai@gmail.com">P142desai@gmail.com</a></p>
+                            </div>
+                            <ul class="social-links">
+                               <li><a href="https://www.linkedin.com/in/parth-desai-b692ba1a3/" class="uil fa fa-linkedin" data-toggle="tooltip" data-placement="left" title="Linkedin"></a></li>
+                               <li><a href="https://www.facebook.com/profile.php?id=100008360353155" class="uil fa fa-facebook-square" data-toggle="tooltip" data-placement="left" title="Facebook"></a></li>
+                               <li><a href="https://github.com/desaip24" class="uil fa fa-github" data-toggle="tooltip" data-placement="left" title="Github"></a></li>
+                           </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="contact-form">
+                            <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+                            <form action="" method="get">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">
+                                        <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                                    </div>
+
+                                    <div class="ml-lg-auto col-lg-5 col-12">
+                                        <input type="submit" class="form-control submit-btn" value="Send Button">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END OF CONTACT -->
+    </div>
+</div>
     <!-- SCRIPTS -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -324,10 +331,21 @@
     <script src="js/jQuery.headroom.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
+    <script src="js/fullpage.js"></script>
     <script src="js/custom.js"></script>
-
     <script src="js/wow.min.js"></script>
+
     <script>new WOW().init();</script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#fullpage').fullpage({
+                navigation: true,
+                anchors: ['home', 'about', 'projects', 'experiences', 'testimonials','contact','lastpage'],
+                lockAnchors: false,
+                menu: '#menu'
+            });    
+        });
+    </script>
 
 </body>
 </html>
@@ -393,3 +411,4 @@
         </div>
     </footer> -->
     <!-- END OF FOOTER -->
+<!-- END OF EXTRA CODE -->
