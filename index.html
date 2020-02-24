@@ -33,48 +33,46 @@
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-<div id="fullpage">
-    
-        <!-- NAV BAR -->
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light" id="menu">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Parth Desai</a>
+<div id="fullpage"> 
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-sm navbar-light" id="menu" >
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Parth Desai</a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a data-menuanchor="home" href="#home" class="nav-link"><span data-hover="Home">Home</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="about" href="#about" class="nav-link"><span data-hover="About">About</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="projects" href="#projects" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="experiences" href="#experiences" class="nav-link"><span data-hover="Experiences">Experiences</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="testimonials" href="#testimonials" class="nav-link"><span data-hover="Testimonials">Testimonials</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="contact" href="#contact" class="nav-link"><span data-hover="contact">Contact</span></a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a href="#home-section" class="nav-link"><span data-hover="Home">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-section" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experiences-section" class="nav-link"><span data-hover="Experiences">Experiences</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials-section" class="nav-link"><span data-hover="Testimonials">Testimonials</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-section" class="nav-link"><span data-hover="contact">Contact</span></a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <!-- END OF NAV BAR -->
-        <div class="section active" id="home">
+        </div>
+    </nav>
+    <!-- END OF NAV BAR -->
+
+    <div class="section active" data-anchor="home-section">
         <!-- INTRO -->
         <section class="about full-screen d-lg-flex justify-content-center align-items-center" >
             <div class="container">
@@ -111,7 +109,7 @@
         <!-- END OF INTRO -->
     </div>
 
-    <div class="section" id="about">
+    <div class="section" data-anchor="about-section">
         <!-- ABOUT ME -->
         <section class="about-me py-5" >
             <div class="container">
@@ -150,10 +148,7 @@
         <!-- END OF ABOUT ME -->
     </div>
 
-    <div class="section" id="projects">Projects
-    </div>
-
-    <div class="section" id="experiences">
+    <div class="section" data-anchor="experiences-section">
         <!-- EDUCATION AND EXPERIENCE -->
         <section class="Experiences py-5 d-lg-flex justify-content-center align-items-center">
             <div class="container">
@@ -228,7 +223,7 @@
         <!-- END OF EDUCATION AND EXPERIENCE -->
     </div>
 
-    <div class="section" id="testimonials">
+    <div class="section" data-anchor="testimonials-section">
         <!-- TESTIMONY CAROUSEL -->
         <section class="testimonials">
             <div class="wrapper">
@@ -268,7 +263,7 @@
         <!-- END OF TESTIMONY CAROUSEL -->
     </div>
 
-    <div class="section" id="contact">
+    <div class="section" data-anchor="contact-section">
         <!-- CONTACT -->
         <section class="contact py-5">
             <div class="container">
@@ -340,9 +335,6 @@
         $(document).ready(function(){
             $('#fullpage').fullpage({
                 navigation: true,
-                anchors: ['home', 'about', 'projects', 'experiences', 'testimonials','contact','lastpage'],
-                lockAnchors: false,
-                menu: '#menu'
             });    
         });
     </script>
