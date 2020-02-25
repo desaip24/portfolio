@@ -47,4 +47,15 @@
     // TOOLTIP
     $('.social-links a').tooltip();
 
+    //DISABLE TAB KEY
+    $(document).keydown(function (e) 
+    {
+      var keycode1 = (e.keyCode ? e.keyCode : e.which);
+      if (keycode1 == 0 || keycode1 == 9) {
+          e.preventDefault();
+          e.stopPropagation();
+      }
+    });
+
+
 })(jQuery);
