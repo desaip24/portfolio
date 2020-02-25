@@ -57,9 +57,9 @@
                         <li class="nav-item">
                             <a data-menuanchor="about" href="#about" class="nav-link"><span data-hover="About">About</span></a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a data-menuanchor="projects" href="#projects" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a data-menuanchor="experiences" href="#experiences" class="nav-link"><span data-hover="Experiences">Experiences</span></a>
                         </li>
@@ -74,7 +74,7 @@
             </div>
         </nav>
         <!-- END OF NAV BAR -->
-        <div class="section active" id="home">
+        <div class="section active" id="home-section">
         <!-- INTRO -->
         <section class="about full-screen d-lg-flex justify-content-center align-items-center" >
             <div class="container">
@@ -109,9 +109,8 @@
             </div>
         </section>
         <!-- END OF INTRO -->
-    </div>
-
-    <div class="section" id="about">
+        </div>
+    <div class="section" id="about-section">
         <!-- ABOUT ME -->
         <section class="about-me py-5" >
             <div class="container">
@@ -150,10 +149,7 @@
         <!-- END OF ABOUT ME -->
     </div>
 
-    <div class="section" id="projects">Projects
-    </div>
-
-    <div class="section" id="experiences">
+    <div class="section" id="experiences-section">
         <!-- EDUCATION AND EXPERIENCE -->
         <section class="Experiences py-5 d-lg-flex justify-content-center align-items-center">
             <div class="container">
@@ -228,7 +224,7 @@
         <!-- END OF EDUCATION AND EXPERIENCE -->
     </div>
 
-    <div class="section" id="testimonials">
+    <div class="section" id="testimonials-section">
         <!-- TESTIMONY CAROUSEL -->
         <section class="testimonials">
             <div class="wrapper">
@@ -268,7 +264,7 @@
         <!-- END OF TESTIMONY CAROUSEL -->
     </div>
 
-    <div class="section" id="contact">
+    <div class="section" id="contact-section">
         <!-- CONTACT -->
         <section class="contact py-5">
             <div class="container">
@@ -340,7 +336,8 @@
         $(document).ready(function(){
             $('#fullpage').fullpage({
                 navigation: true,
-                anchors: ['home', 'about', 'projects', 'experiences', 'testimonials','contact','lastpage'],
+                // anchors: ['home', 'about', 'projects', 'experiences', 'testimonials','contact','lastpage'],
+                anchors: ['home', 'about', 'experiences', 'testimonials','contact','lastpage'],
                 lockAnchors: false,
                 menu: '#menu'
             });    
