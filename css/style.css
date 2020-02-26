@@ -222,6 +222,10 @@ b, strong {
   transform: translateY(-100%);
 }
 
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active{
+  color: #ffc200;
+}
+
 .navbar-light .navbar-toggler-icon {
   background: none;
 }

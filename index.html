@@ -34,6 +34,9 @@
 
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        
+    </style>
 </head>
 <body>
     <!-- ROOT DIV -->
@@ -59,9 +62,9 @@
                         <li class="nav-item">
                             <a data-menuanchor="about" href="#about" class="nav-link"><span data-hover="About">About</span></a>
                         </li>
-                        <!-- <li class="nav-item">
+                        <li class="nav-item">
                             <a data-menuanchor="projects" href="#projects" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                        </li> -->
+                        </li>
                         <li class="nav-item">
                             <a data-menuanchor="experiences" href="#experiences" class="nav-link"><span data-hover="Experiences">Experiences</span></a>
                         </li>
@@ -385,7 +388,7 @@
         $(document).ready(function(){
             $('#fullpage').fullpage({
                 navigation: true,
-                anchors: ['home', 'about', 'experiences', 'testimonials','contact','lastpage'],
+                anchors: ['home', 'about', 'projects', 'experiences', 'testimonials','contact','lastpage'],
                 lockAnchors: false,
                 menu: '#menu'
             });    

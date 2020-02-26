@@ -1,16 +1,6 @@
 (function ($) {
   "use strict";
 
-  //fULLPAGE.JS
-  $(document).ready(function(){
-    $('#fullpage').fullpage({
-        navigation: true,
-        anchors: ['home', 'about', 'experiences', 'testimonials','contact','lastpage'],
-        lockAnchors: false,
-        menu: '#menu'
-    });    
-  });
-
   // HEADER
   $(".navbar").headroom();
 
