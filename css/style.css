@@ -222,6 +222,10 @@ b, strong {
   transform: translateY(-100%);
 }
 
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active{
+  color: #ffc200;
+}
+
 .navbar-light .navbar-toggler-icon {
   background: none;
 }
@@ -260,6 +264,11 @@ b, strong {
   position: relative;
 }
 
+.shadow-header{
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
 .copyright-text {
   font-size: 16px;
   font-weight: normal;
@@ -267,9 +276,13 @@ b, strong {
 }
 
 .about-me{
-  margin-top: 50px;
+  margin-top: 40px;
 }
-//this is change
+
+.about-me-inner p{
+  text-align: justify;
+  margin-top: 20px;
+}
 .about-me-tag {
   word-break: break-all;
   margin-bottom: 10px;
@@ -287,7 +300,9 @@ b, strong {
   padding: 4px 10px;
   border-radius: 4px;
 }
-
+.experiences{
+  margin-top: 30px;
+}
 
 .timeline-wrapper {
   position: relative;
@@ -344,9 +359,16 @@ b, strong {
 }
 
 .testimonials{
-  margin-top: 45px;
+  margin-top: 90px;
 }
 
+.owl-dots .owl-dot{
+  outline: none;
+}
+
+.owl-nav{
+  display: none;
+}
 .google-map iframe {
   width: 100%;
 }
