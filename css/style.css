@@ -365,7 +365,7 @@ b, strong {
 }
 
 .testimonials{
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 .owl-dots .owl-dot{
@@ -377,6 +377,9 @@ b, strong {
 }
 .google-map iframe {
   width: 100%;
+}
+.contact{
+  margin-top: 50px;
 }
 
 .contact-form {
