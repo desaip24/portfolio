@@ -14,7 +14,8 @@ body {
 }
 
 .full-screen {
-  padding: 8rem 0;
+  padding: 10rem 0;
+  height: 100%;
 }
 
 .small-text {
@@ -275,8 +276,8 @@ b, strong {
   display: block;
 }
 
-.about-me{
-  margin-top: 40px;
+.about-me .container{
+  margin-top: 100px;
 }
 
 .about-me-inner p{
@@ -301,6 +302,9 @@ b, strong {
   border-radius: 4px;
 }
 
+.project-section{
+  /*padding: 8rem;*/
+}
 .my-projects .card{
   border-left: 6px solid #ffc200;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -365,6 +369,12 @@ b, strong {
 }
 
 .testimonials{
+  margin-top: 50px;
+}
+
+.testimonials .row{
+  margin-left: 0px; 
+  margin-right: 0px;
   margin-top: 50px;
 }
 
