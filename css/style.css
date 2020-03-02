@@ -13,9 +13,14 @@ body {
   padding-top: 70px;
 }
 
-.full-screen {
-  padding: 10rem 0;
+html, body {
   height: 100%;
+  margin: 0;
+}
+
+.full-screen {
+  /*padding: 20% 0;*/
+  height: 100vh;
 }
 
 .small-text {
@@ -53,6 +58,7 @@ p {
   font-weight: 300;
   line-height: 1.5;
   color: #5b5b5b;
+  /*text-align: justify;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -270,11 +276,13 @@ b, strong {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
 }
 
-.copyright-text {
-  font-size: 16px;
-  font-weight: normal;
-  display: block;
-}
+/*.about{
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  -ms-transform: translateY(-60%);
+  transform: translateY(-60%);
+}*/
 
 .about-me .container{
   margin-top: 100px;
@@ -368,10 +376,6 @@ b, strong {
   margin-left: 15px;
 }
 
-.testimonials{
-  margin-top: 50px;
-}
-
 .testimonials .row{
   margin-left: 0px; 
   margin-right: 0px;
@@ -389,7 +393,7 @@ b, strong {
   width: 100%;
 }
 .contact{
-  margin-top: 50px;
+  padding-bottom: 30px;
 }
 
 .contact-form {

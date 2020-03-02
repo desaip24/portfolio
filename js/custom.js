@@ -1,6 +1,15 @@
 (function ($) {
   "use strict";
 
+  //NAV BAR ACTIVE CLASS
+  $(".nav a").on("click", function(){
+     $(".nav").find(".active").removeClass("active");
+     $(this).parent().addClass("active");
+  })
+
+   // HEADER
+    $(".navbar").headroom();
+    
   // PROJECT CAROUSEL
   $('#testimonials-list').owlCarousel({
       loop: true,
