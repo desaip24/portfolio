@@ -7,9 +7,9 @@
      $(this).parent().addClass("active");
   })
 
-   // HEADER
-    $(".navbar").headroom();
-    
+  // HEADER
+  // $(".navbar").headroom();
+
   // PROJECT CAROUSEL
   $('#testimonials-list').owlCarousel({
       loop: true,
