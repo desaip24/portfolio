@@ -303,7 +303,7 @@ a, a:hover {
 
 .socialbtns .fa:hover {
   border-radius: 7px;
-  background-color: #5b5b5b;
+  background-color: #474559;
   color:#ffc200;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
@@ -426,6 +426,7 @@ a, a:hover {
   width: 100%;
 }
 .contact{
+  margin-top: 40px; 
   padding-bottom: 30px;
 }
 
