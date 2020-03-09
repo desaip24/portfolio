@@ -38,356 +38,401 @@
 
 </head>
 <body>
-    <!-- ROOT DIV -->
-    <div id="fullpage">
+    <!-- NAV BAR -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light shadow-header" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Parth Desai</a>
 
-        <!-- NAV BAR -->
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light shadow-header" id="menu">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Parth Desai</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link"><span data-hover="Home">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-menuanchor="about" href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-menuanchor="projects" href="#projects" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-menuanchor="experiences" href="#experiences" class="nav-link"><span data-hover="Experiences">Experiences</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-menuanchor="testimonials" href="#testimonials" class="nav-link"><span data-hover="Testimonials">Testimonials</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-menuanchor="contact" href="#contact" class="nav-link"><span data-hover="contact">Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <!-- END OF NAV BAR -->
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a data-menuanchor="home" href="#home" class="nav-link"><span data-hover="Home">Home</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="about" href="#about" class="nav-link"><span data-hover="About">About</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="projects" href="#projects" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="experiences" href="#experiences" class="nav-link"><span data-hover="Experiences">Experiences</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="testimonials" href="#testimonials" class="nav-link"><span data-hover="Testimonials">Testimonials</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-menuanchor="contact" href="#contact" class="nav-link"><span data-hover="contact">Contact</span></a>
-                        </li>
-                    </ul>
+    <!-- HOME -->
+    <div class="section active full-screen" id="home">
+        <section class="about  d-lg-flex justify-content-center align-items-center" style="padding-top:25vh;">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                        <div class="about-text">
+                            <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                            <h1 class="animated animated-text">
+                                <span class="mr-2">Hey folks, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item"> Parth Desai</span>
+                                    <span class="animated-item"> Developer</span>
+                                    <span class="animated-item"> Freelancer</span>
+                                </div>
+                            </h1>
+
+                            <p>To work with maximum potential in a progressive organization, with an opportunity of working with a diverse group of people and enhancing my professional skills with learning and experience for career growth.</p>
+
+                                                       
+
+                            <div class="socialbtns">
+                                <ul>
+                                    <li><a href="#" class="fa fa-lg fa-linkedin"></a></li>
+                                    <li><a href="#" class="fa fa-lg fa-github"></a></li>
+                                    <li align="center"><a href="#" class="fa fa-lg fa-facebook"></a></li>
+                                    <li><a href="#" class="fa fa-lg fa-stack-overflow"></a></li>
+                                    <li><a href="#" class="fa fa-lg fa-instagram"></a></li> 
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-12 col-12">
+                        <div class="about-image svg">
+                            <img src="images/undraw/frontPage.svg" class="img-fluid" alt="svg image">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <!-- END OF NAV BAR -->
-
-        <!-- HOME -->
-        <div class="section active" id="home-section">
-            <section class="about full-screen d-lg-flex justify-content-center align-items-center" >
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-                            <div class="about-text">
-                                <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
-                                <h1 class="animated animated-text">
-                                    <span class="mr-2">Hey folks, I'm</span>
-                                    <div class="animated-info">
-                                        <span class="animated-item"> Parth Desai</span>
-                                        <span class="animated-item"> Developer</span>
-                                        <span class="animated-item"> Freelancer</span>
-                                    </div>
-                                </h1>
-
-                                <p>To work with maximum potential in a progressive organization, with an opportunity of working with a diverse group of people and enhancing my professional skills with learning and experience for career growth.</p>
-
-                                <div class="custom-btn-group mt-4">
-                                  <a href="documents/Parth-Desai_cv.pdf" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
-                                  <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Contact</a>
-                              </div>
-                          </div>
-                        </div>
-
-                        <div class="col-lg-5 col-md-12 col-12">
-                            <div class="about-image svg">
-                                <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!-- END OF HOME -->    
-
-        <!-- ABOUT ME -->
-        <div class="section" id="about-section">
-            <section class="about-me py-5" >
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 mr-lg-6 col-12">
-                            <div class="about-image svg">
-                                <img src="images/undraw/ab-img.png" class="img-fluid" alt="svg image">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-12">
-                            <div class="about-me-inner">
-                                <h2>About Me</h2>
-                                <p>Hello, I’m Parth Desai, an IT Engineer based in Mumbai. I have extensive experience in application development and web development. I am currently working in the Life Sciences account of Tata consultancy services. I have 0.6+ years of experience and have developed many small scale android applications and websites. All the products have been in different domains, technologies, and verticals. I like trying out new technologies to see how they can be used in product development. Also, I am good at</p>
-                                <div class="about-me-tag">
-                                    <ul>
-                                        <li><span>Java</span></li>
-                                        <li><span>Python</span></li>
-                                        <li><span>Android</span></li>
-                                        <li><span>Web development</span></li>
-                                        <li><span>Drupal 7</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!-- END OF ABOUT ME -->
-
-        <!-- PROJECTS -->
-        <div class="section" id="project-section">
-            <div class="container" style="margin-top: 70px;">
-                <div class="row my-projects">
-                    <div class="col-lg-6 mr-lg-6 col-12">
-                        <h2 class="mb-4">Projects</h2>
-                        <div class="my-projects">
-                            <div class="card mb-3">
-                                <div class="card-header"><b>Smart Band with Gesture Control</b></div>
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">Arduino Uno + Android app</h6>
-                                    <ul class="fa-ul">
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Wearable smart band</p></li>
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">control smartphone with simple hand gesture</p></li>
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Heartbeat & temparature measurement</p></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card mb-3" >
-                                <div class="card-header"><b>Bvm-IT</b></div>
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">Android app</h6>
-                                    <ul class="fa-ul">
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Departmental app of BVM college</p></li>
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Live document updates through notification and SMS service</p></li>
-                                  </ul>
-                                </div>
-                            </div>
-                            <div class="card mb-3" >
-                                <div class="card-header"><b>Smart College</b></div>
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">Android app</h6>
-                                    <ul class="fa-ul">
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Centralize platform for document sharing</p></li>
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Chat forum for online discussions and queries</p></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mr-lg-6 col-12">
-                        <div class="my-projects" style="margin-top: 70px;">
-                            <div class="card mb-3" >
-                                <div class="card-header"><b>Realtime Currency Converter</b></div>
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">Website</h6>
-                                    <ul class="fa-ul">
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Display live currency rate</p></li>
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">convert currency with live exchnage rate</p></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card mb-3" >
-                                <div class="card-header"><b>Udaan-2k18</b></div>
-                                <div class="card-body">
-                                    <h6 class="card-subtitle mb-2 text-muted">Website</h6>
-                                    <ul class="fa-ul">
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Website of Techfest of BVM college</p></li>
-                                        <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Provides information of events and activities</p></li>
-                                    </ul>
-                                </div>
-                            </div>    
-
-                            <p class="card-text" style="text-align: right;"><i><b>and counting...</b></i></p>
-                        </div>
-                    </div>                        
-                </div>
-            </div>
-        </div>
-        <!-- END OF PROJECTS -->
-
-        <!-- EDUCATION AND EXPERIENCE -->
-        <div class="section" id="experiences-section">
-            <section class="experiences py-5 d-lg-flex justify-content-center align-items-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-12">
-                            <h2 class="mb-4">Experiences</h2>
-
-                            <div class="timeline">
-                                <div class="timeline-wrapper">
-                                    <div class="timeline-yr">
-                                        <span>2019</span>
-                                    </div>
-                                    <div class="timeline-info">
-                                        <h3><span>Assistant System Engineer<br></span><small>Tata Consultancy Services</small></h3>
-                                        <p>Drupal 7 developer</p><br>
-                                        <p>Programming with PHP, HTML, CSS, JS, JQuery, Bootstrap, SQL, JSON.</p><br>
-                                        <p>Worked on tools like JIRA, Github, Edison, Apache Tomcat, and Xampp.</p>
-                                  </div>
-                                </div>
-
-                                <div class="timeline-wrapper">
-                                    <div class="timeline-yr">
-                                        <span>2017</span>
-                                    </div>
-                                    <div class="timeline-info">
-                                        <h3><span>Internship<br></span><small>Dynamic Web Soft</small></h3>
-                                        <p>Developed Management Systems & Websites with technologies like HTML, Bootstrap, CSS, PHP, JavaScript, JQuery, and SQL.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <h2 class="mb-4 mobile-mt-2">Educations</h2>
-                            <div class="timeline">
-                                <div class="timeline-wrapper">
-                                    <div class="timeline-yr">
-                                        <span>2019</span>
-                                    </div>
-                                    <div class="timeline-info">
-                                        <h3><span>B.Tech(Inforamtion Technology)</span><small>Birla Vishvakarma Mahavidyalaya</small></h3>
-                                        <p>CGPA : 7.97 (Equivalent to 1.61 GPA)</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-wrapper">
-                                    <div class="timeline-yr">
-                                        <span>2015</span>
-                                    </div>
-                                    <div class="timeline-info">
-                                        <h3><span>Higher Secondary Education</span><small>Gajera International School</small></h3>
-                                        <p>Percentile : 94.70</p>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-wrapper">
-                                    <div class="timeline-yr">
-                                        <span>2013</span>
-                                    </div>
-                                    <div class="timeline-info">
-                                        <h3><span>Secondary Education</span><small>Gajera International School</small></h3>
-                                        <p>Percentile : 99.53</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!-- END OF EDUCATION AND EXPERIENCE -->
-
-        <!-- TESTIMONY CAROUSEL -->
-        <div class="section" id="testimonials-section">
-            <section class="testimonials">
-                <div class="wrapper">
-                    <div class="row" style="margin-left: 0px; margin-right: 0px;">
-                        <div class="col-sm-12">
-                            <h2 class="mb-4" style="text-align: center;">Testimonials</h2>
-                            <div id="testimonials-list" class="owl-carousel">
-                                <div class="item">
-                                    <div class="shadow-effect">
-                                        <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor  convallis vulputate leo non </p>
-                                    </div>
-                                    <div class="testimonial-name">First Person</div>
-                                    <div class="testimonial-name">Designation</div>
-                                </div>
-                                <div class="item">
-                                    <div class="shadow-effect">
-                                        <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                                    </div>
-                                    <div class="testimonial-name">Second Person</div>
-                                    <div class="testimonial-name">Designation</div>
-                                </div>
-                                <div class="item">
-                                    <div class="shadow-effect">
-                                        <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor  Vestibulum eget suscipit sem. </p>
-                                    </div>
-                                    <div class="testimonial-name">Third Person</div>
-                                    <div class="testimonial-name">Designation</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!-- END OF TESTIMONY CAROUSEL -->
-
-        <!-- CONTACT -->
-        <div class="section" id="contact-section">
-            <section class="contact py-5">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-5 mr-lg-5 col-12">
-                            <div class="google-map w-100">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.114838677846!2d72.81214311488674!3d21.22729428589123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04ea49eb92a05%3A0xa43f839409bbaf41!2sArchana%20Society!5e0!3m2!1sen!2sin!4v1582397743107!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
-                            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                                <div class="contact-info-item">
-                                    <h3 class="mb-3" style="color: #ffc200">Parth H Desai</h3>
-                                    <p class="footer-text mb-0">+91 815 488 1760</p>
-                                    <p><a href="mailto:P142desai@gmail.com">P142desai@gmail.com</a></p>
-                                </div>
-                                <ul class="social-links">
-                                   <li><a href="https://www.linkedin.com/in/parth-desai-b692ba1a3/" class="uil fa fa-linkedin" data-toggle="tooltip" data-placement="left" title="Linkedin"></a></li>
-                                   <li><a href="https://www.facebook.com/profile.php?id=100008360353155" class="uil fa fa-facebook-square" data-toggle="tooltip" data-placement="left" title="Facebook"></a></li>
-                                   <li><a href="https://github.com/desaip24" class="uil fa fa-github" data-toggle="tooltip" data-placement="left" title="Github"></a></li>
-                               </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-12">
-                            <div class="contact-form">
-                                <h2 class="mb-4">Interested to work together? Let's talk</h2>
-
-                                <form action="" method="get">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-12">
-                                            <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                                        </div>
-
-                                        <div class="col-lg-6 col-12">
-                                            <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                                        </div>
-
-                                        <div class="col-12">
-                                            <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                                        </div>
-
-                                        <div class="ml-lg-auto col-lg-5 col-12">
-                                            <input type="submit" class="form-control submit-btn" value="Send Button">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!-- END OF CONTACT -->
+        </section>
     </div>
-    <!-- END OF ROOT DIV -->
+    <!-- END OF HOME -->    
+
+    <!-- ABOUT ME -->
+    <div class="section full-screen" id="about">
+        <section class="about-me py-5" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mr-lg-6 col-12">
+                        <div class="about-image svg" >
+                            <img src="images/undraw/ab-img.png" class="img-fluid" alt="svg image">
+                        </div>
+                        <!-- <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                            <div class="contact-info-item">
+                                <h3 class="mb-3" style="color: #ffc200">Parth H Desai</h3>
+                                <p class="footer-text mb-0">+91 815 488 1760</p>
+                                <p><a href="mailto:P142desai@gmail.com">P142desai@gmail.com</a></p>
+                            </div>
+                            <ul class="social-links">
+                               <li><a href="https://www.linkedin.com/in/parth-desai-b692ba1a3/" class="uil fa fa-linkedin" data-toggle="tooltip" data-placement="left" title="Linkedin"></a></li>
+                               <li><a href="https://www.facebook.com/profile.php?id=100008360353155" class="uil fa fa-facebook-square" data-toggle="tooltip" data-placement="left" title="Facebook"></a></li>
+                               <li><a href="https://github.com/desaip24" class="uil fa fa-github" data-toggle="tooltip" data-placement="left" title="Github"></a></li>
+                           </ul>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="about-me-inner">
+                            <h2>About Me</h2>
+                            <p>Hello, I’m Parth Desai, an IT Engineer graduate from prestigious Birla Vishvakarma Mahavidyalaya, currently working in Mumbai. I have extensive experience in application development and web development. I am currently working in the Life Sciences account of Tata consultancy services as Drupal 7 and 8 developer. I have 0.6+ years of experience and have developed many small scale android applications and websites. All the products have been in different domains, technologies, and verticals. I like trying out new technologies to see how they can be used in product development. Also, I am good at</p>
+                            <div class="about-me-tag">
+                                <ul>
+                                    <li><span>Java</span></li>
+                                    <li><span>Python</span></li>
+                                    <li><span>Android</span></li>
+                                    <li><span>Web development</span></li>
+                                    <li><span>Drupal 7</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  class="row">
+                    <div align="right" class="col-lg-6 mr-lg-6 col-12">
+                        <div class="custom-btn-group mt-4">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 mr-lg-5 col-12">
+                        <div class="custom-btn-group mt-4" style="margin-left: 10px;">
+                            <a href="#contact" class="btn mr-lg-2 custom-btn ">Contact me   <i class="fa fa-address-book"></i></a>
+                         
+                            <a href="documents/Parth-Desai_cv.pdf" class="btn custom-btn custom-btn-bg custom-btn-link"><i class='uil uil-file-alt'></i>Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END OF ABOUT ME -->
+
+    <!-- PROJECTS -->
+    <div class="section projects-section" id="projects">
+        <div class="container py-5">
+            <h2 class="mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-lg-6 mr-lg-6 col-12">
+                    <div class="my-projects">
+                        <div class="card mb-3">
+                            <div class="card-header"><b>Smart Band with Gesture Control</b></div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Arduino Uno + Android app</h6>
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Wearable smart band</p></li>
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Communicate via Bluetooth sensor(HC-05)</p></li>
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">control smartphone with simple hand gesture</p></li>
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Heartbeat & temparature measurement</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header"><b>Bvm-IT</b></div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Android app</h6>
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Departmental app of BVM college</p></li>
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Live document updates through notification and SMS service</p></li>
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Provides information about placement statistics</p></li>
+                              </ul>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 mr-lg-6 col-12">
+                    <div class="my-projects">
+                        <div class="card mb-3" >
+                            <div class="card-header"><b>Smart College</b></div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Android app</h6>
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Centralize platform for document sharing</p></li>
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Chat forum for online discussions and queries</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header"><b>Realtime Currency Converter</b></div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Website</h6>
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Display live currency rate</p></li>
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">convert currency with live exchnage rate</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card mb-3" >
+                            <div class="card-header"><b>Udaan-2k18</b></div>
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-muted">Website</h6>
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Website of Techfest of BVM college</p></li>
+                                    <li><span class="fa-li"><i class="fa fa-check-square"></i></span><p class="card-text">Provides information of events and activities</p></li>
+                                </ul>
+                            </div>
+                        </div>    
+                        <p class="card-text" style="text-align: right;"><i><b>and counting...</b></i></p>
+                    </div>
+                </div>                        
+            </div>
+        </div>
+    </div>
+    <!-- END OF PROJECTS -->
+
+    <!-- EDUCATION AND EXPERIENCE -->
+    <div class="section" id="experiences">
+        <section class="experiences py-5 d-lg-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <h2 class="mb-4">Experiences</h2>
+
+                        <div class="timeline">
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2019</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>Assistant System Engineer<br></span><small>Tata Consultancy Services</small></h3>
+                                    <p>Drupal 7 developer</p><br>
+                                    <p>Programming with PHP, HTML, CSS, JS, JQuery, Bootstrap, SQL, JSON.</p><br>
+                                    <p>Worked on tools like JIRA, Github, Edison, Apache Tomcat, and Xampp.</p>
+                              </div>
+                            </div>
+
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2017</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>Internship<br></span><small>Dynamic Web Soft</small></h3>
+                                    <p>Developed Management Systems & Websites with technologies like HTML, Bootstrap, CSS, PHP, JavaScript, JQuery, and SQL.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <h2 class="mb-4 mobile-mt-2">Educations</h2>
+                        <div class="timeline">
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2019</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>B.Tech(Inforamtion Technology)</span><small>Birla Vishvakarma Mahavidyalaya</small></h3>
+                                    <p>CGPA : 7.97 (Equivalent to 1.61 GPA)</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2015</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>Higher Secondary Education</span><small>Gajera International School</small></h3>
+                                    <p>Percentile : 94.70</p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                    <span>2013</span>
+                                </div>
+                                <div class="timeline-info">
+                                    <h3><span>Secondary Education</span><small>Gajera International School</small></h3>
+                                    <p>Percentile : 99.53</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END OF EDUCATION AND EXPERIENCE -->
+
+    <!-- TESTIMONY CAROUSEL -->
+    <div class="section" id="testimonials" >
+        <section class="testimonials py-5" >
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="mb-4" style="text-align: center;">Testimonials</h2>
+                        <div id="testimonials-list" class="owl-carousel">
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor  convallis vulputate leo non </p>
+                                </div>
+                                <div class="testimonial-name">First Person</div>
+                                <div class="testimonial-name">Designation</div>
+                            </div>
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                                </div>
+                                <div class="testimonial-name">Second Person</div>
+                                <div class="testimonial-name">Designation</div>
+                            </div>
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="imgPlaceholder" src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget suscipit sem. Vivamus convallis vulputate leo non ultricies.Lorem ipsum dolor  Vestibulum eget suscipit sem. </p>
+                                </div>
+                                <div class="testimonial-name">Third Person</div>
+                                <div class="testimonial-name">Designation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END OF TESTIMONY CAROUSEL -->
+
+    <!-- CONTACT -->
+    <div class="section" id="contact">
+        <section class="contact py-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5 mr-lg-5 col-12">
+                        <div align="center"class="about-image svg">
+                            <img src="images/undraw/work-together.png" class="img-fluid" alt="svg image">
+                        </div>
+                        <!-- <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                            <div class="contact-info-item">
+                                <h3 class="mb-3" style="color: #ffc200">Parth H Desai</h3>
+                                <p class="footer-text mb-0">+91 815 488 1760</p>
+                                <p><a href="mailto:P142desai@gmail.com">P142desai@gmail.com</a></p>
+                            </div>
+                            <ul class="social-links">
+                               <li><a href="https://www.linkedin.com/in/parth-desai-b692ba1a3/" class="uil fa fa-linkedin" data-toggle="tooltip" data-placement="left" title="Linkedin"></a></li>
+                               <li><a href="https://www.facebook.com/profile.php?id=100008360353155" class="uil fa fa-facebook-square" data-toggle="tooltip" data-placement="left" title="Facebook"></a></li>
+                               <li><a href="https://github.com/desaip24" class="uil fa fa-github" data-toggle="tooltip" data-placement="left" title="Github"></a></li>
+                           </ul>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="contact-form">
+                            <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+                            <form action="" method="get">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">
+                                        <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                                    </div>
+
+                                    <div class="ml-lg-auto col-lg-5 col-12">
+                                        <input type="submit" class="form-control submit-btn" value="Send Button">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END OF CONTACT -->
+    
+    <!-- FOOTER -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-12 col-12">                                
+                    <p class="copyright-text text-center">Copyright &copy; 2020 Parth Desai . All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+ 
     
     <!-- SCRIPTS -->
     <script src="js/jquery-3.3.1.min.js"></script>

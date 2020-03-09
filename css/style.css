@@ -13,8 +13,14 @@ body {
   padding-top: 70px;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 .full-screen {
-  padding: 8rem 0;
+  /*padding: 20% 0;*/
+  height: 100vh;
 }
 
 .small-text {
@@ -52,6 +58,7 @@ p {
   font-weight: 300;
   line-height: 1.5;
   color: #5b5b5b;
+  /*text-align: justify;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -269,15 +276,50 @@ b, strong {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
 }
 
-.copyright-text {
-  font-size: 16px;
-  font-weight: normal;
-  display: block;
+a, a:hover {
+  text-decoration: none;
 }
 
-.about-me{
-  margin-top: 40px;
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
 }
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+  width: 40px;
+  height: 28px;
+  color: #000;
+  padding: 10px 10px 27px 10px;
+  transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+}
+
+.socialbtns .fa:hover {
+  border-radius: 7px;
+  background-color: #474559;
+  color:#ffc200;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -o-border-radius: 7px;
+  transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+}
+.about{
+  margin-top: 20px;  
+}
+
+/*.about-me .container{
+  margin-top: 100px;
+}*/
 
 .about-me-inner p{
   text-align: justify;
@@ -301,6 +343,9 @@ b, strong {
   border-radius: 4px;
 }
 
+.project-section{
+  /*padding: 8rem;*/
+}
 .my-projects .card{
   border-left: 6px solid #ffc200;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -364,7 +409,9 @@ b, strong {
   margin-left: 15px;
 }
 
-.testimonials{
+.testimonials .row{
+  margin-left: 0px; 
+  margin-right: 0px;
   margin-top: 50px;
 }
 
@@ -379,7 +426,8 @@ b, strong {
   width: 100%;
 }
 .contact{
-  margin-top: 50px;
+  margin-top: 40px; 
+  padding-bottom: 30px;
 }
 
 .contact-form {
@@ -536,3 +584,4 @@ b, strong {
     vertical-align: top;
   }
 }
+
