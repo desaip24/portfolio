@@ -26,13 +26,18 @@
 }
 #testimonials-list .item {
     text-align: center;
-    padding: 5px;
+    padding: 15px;
     margin-bottom:50px;
     opacity: .2;
     -webkit-transform: scale3d(0.8, 0.8, 1);
     transform: scale3d(0.8, 0.8, 1);
     transition: all 0.3s ease-in-out;
 }
+#testimonials-list .item p{
+    text-align: justify;
+    padding: 10px;
+}
+
 #testimonials-list .owl-item.active.center .item {
     opacity: 1;
     -webkit-transform: scale3d(1.0, 1.0, 1);
