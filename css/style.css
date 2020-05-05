@@ -287,10 +287,10 @@ b, strong {
   width: 0;
 }
 
-.nav-item a span:hover:after { 
+/*.nav-item a span:hover:after { 
   width: 100%; 
   left: 0; 
-}
+}*/
 
 /*.nav-item a.active span:after {
   content: "";
