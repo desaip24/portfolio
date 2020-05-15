@@ -1,65 +1,65 @@
 (function ($) {
-  "use strict";
+    "use strict";
 
-  //NAV BAR ACTIVE CLASS
-  // $(".nav a").on("click", function(){
-  //    $(".nav").find(".active").removeClass("active");
-  //    $(this).parent().addClass("active");
-  // })
+    //NAV BAR ACTIVE CLASS
+    // $(".nav a").on("click", function(){
+    //    $(".nav").find(".active").removeClass("active");
+    //    $(this).parent().addClass("active");
+    // })
 
-  // HEADER
-  // $(".navbar").headroom();
+    // HEADER
+    // $(".navbar").headroom();
 
-  // PROJECT CAROUSEL
-  $('#testimonials-list').owlCarousel({
-      loop: true,
-      center: true,
-      items: 3,
-      margin: 0,
-      autoplay: true,
-      dots:true,
-      autoplayTimeout: 8500,
-      smartSpeed: 450,
-      responsive: {
-        0: {
-          items: 1
-        },
-        768: {
-          items: 2
-        },
-        1170: {
-          items: 3
+    // PROJECT CAROUSEL
+    $('#testimonials-list').owlCarousel({
+        loop: true,
+        center: true,
+        items: 3,
+        margin: 0,
+        autoplay: true,
+        dots:true,
+        autoplayTimeout: 8500,
+        smartSpeed: 450,
+        responsive: {
+            0: {
+              items: 1
+            },
+            768: {
+              items: 2
+            },
+            1170: {
+              items: 3
+            }
         }
-      }
-  }); 
+    }); 
 
-  // TOOLTIP
-  $('.social-links a').tooltip();
+    // TOOLTIP
+    $('.social-links a').tooltip();
 
-  // SMOOTHSCROLL
-  // $(function() {
-  //   $('.nav-link, .custom-btn-link').on('click', function(event) {
-  //     var $anchor = $(this);
-  //     $('html, body').stop().animate({
-  //         scrollTop: $($anchor.attr('href')).offset().top - 49
-  //     }, 1000);
-  //     event.preventDefault();
-  //   });
-  // });  
+    // SMOOTHSCROLL
+    // $(function() {
+    //   $('.nav-link, .custom-btn-link').on('click', function(event) {
+    //     var $anchor = $(this);
+    //     $('html, body').stop().animate({
+    //         scrollTop: $($anchor.attr('href')).offset().top - 49
+    //     }, 1000);
+    //     event.preventDefault();
+    //   });
+    // });  
 
-  //DISABLE TAB KEY
-  $(document).keydown(function (e) {
-    var keycode1 = (e.keyCode ? e.keyCode : e.which);
-    if (keycode1 == 0 || keycode1 == 9) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
-  });
+    //DISABLE TAB KEY
+    $(document).keydown(function (e) {
+        var keycode1 = (e.keyCode ? e.keyCode : e.which);
+        if (keycode1 == 0 || keycode1 == 9) {
+          e.preventDefault();
+          e.stopPropagation();
+        }
+    });
 
 
-  $(document).ready(function () {
+    $(document).ready(function () {
         $(document).on("scroll", onScroll);
-        
+
         //smoothscroll
         $('a[href^="#"]').on('click', function (e) {
             e.preventDefault();
@@ -69,9 +69,9 @@
                 $(this).removeClass('active');
             })
             $(this).addClass('active');
-          
+
             var target = this.hash,
-                menu = target;
+            menu = target;
             $target = $(target);
             $('html, body').stop().animate({
                 'scrollTop': $target.offset().top+2
