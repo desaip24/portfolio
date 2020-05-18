@@ -372,7 +372,7 @@ a, a:hover {
   border-radius: 4px;
 }
 
-.about-me-tag ul li span:hover {
+/*.about-me-tag ul li span:hover {
   border: 2px solid #474559;
   padding: 4px 10px;
   border-radius: 4px;
@@ -382,7 +382,7 @@ a, a:hover {
   -moz-transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -o-transition: all ease 0.5s;
-}
+} */
 
 .my-projects .card{
   border-left: 6px solid #ffc200;
