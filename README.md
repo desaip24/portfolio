@@ -1,3 +1,3 @@
 # Portfolio
-It is a portfolio website of Parth Desai
+It is a portfolio website of Parth Desai.
 
